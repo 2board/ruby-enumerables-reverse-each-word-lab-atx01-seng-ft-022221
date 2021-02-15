@@ -1,2 +1,3 @@
 def reverse_each_word(string)
-  srtring.each do {
+  string.collect do {|word| word.reverse}
+end
